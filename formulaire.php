@@ -23,7 +23,7 @@ if (
     header('location:index.php');
 
 }else {
-    echo'veillez renseigner les champs !';
+    echo'veillez renseigner les champs vides !';
 }
 
 ?>
@@ -32,11 +32,11 @@ if (
 
 <link rel="stylesheet" href="form.css">
 <div class="container">
-    <h1 class="mb-3 mt-3 text-center">Page Editer</h1>
+    <h1 class="mb-3 mt-3 text-center">Page Formulaire</h1>
 
     <div class="form_area">
         <p class="title">S'inscrire</p>
-        <form action="" method="post">
+        <form action="update.php" method="post">
             <div class="form_group">
                 <label class="sub_title" for="name">Nom</label>
                 <input placeholder="Entrer votre nom" name="nom" class="form_style" type="text">

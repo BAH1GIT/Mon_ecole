@@ -1,7 +1,10 @@
 
 <nav class="navbar navbar-expand-lg bg-secondary">
   <div class="container-fluid">
+    <div class="d-flex">
     <a class="navbar-brand text-white" href="#">Nav</a>
+    <a href="formulaire.php" class="btn btn-success ms-3">Ajouter</a>
+    </div>
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" 
             aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -29,7 +32,7 @@
 
       <div class="d-flex" style="width:auto;">
         <input class="form-ontrol me-2 w-50" type="search" placeholder="Rechercher" aria-label="Search">
-        <button class="btn btn-success" type="button">Contact</button>
+        <button class="btn btn-success" type="button">Rechercher</button>
       </div>
     </div>
   </div>

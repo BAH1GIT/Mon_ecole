@@ -1,4 +1,5 @@
 <?php
+include_once("header.php");
 include "Db.php";
 $sql = 'select * from etudiants';
 $query = $conn->prepare($sql);
@@ -11,7 +12,6 @@ $result = $query->fetchAll(PDO::FETCH_ASSOC);
 
 <div class="col-6">
     
-    <div class="d-flex justifu-content-end"><a href="formulaire.php" class="btn btn-success mb-3">Ajouter</a></div>
     <table class="table table-bordered">
         <thead class="bg-dark">
             <tr>
